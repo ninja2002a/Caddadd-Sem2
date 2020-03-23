@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cstring>
-#include "tree.h"
+#include "node.h"
 
 /*
 - Peek should be the only function, rest in code
@@ -15,14 +15,14 @@ using namespace std;
 int peek(char*);
 
 int main() {
-  Tree* t = new Tree();
+  Node* t = new Node();
   char input[100];
   char list[100];
   char* num;
   //queue
-  Tree* qHead;
-  Tree* dq = NULL;
-  Tree* wack = NULL;
+  Node* qHead;
+  Node* dq = NULL;
+  Node* wack = NULL;
 
   //clears out the data that was already in list
   /*for (int a = 0; a < 100; a++) {
