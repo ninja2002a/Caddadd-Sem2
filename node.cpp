@@ -17,7 +17,7 @@ Node::~Node) {
   Right moves the number or operator
 */
 
-void Tree::getDat() {
+void Node::getDat() {
   return next;
 }
 
