@@ -1,13 +1,13 @@
 #include <iostream>
-#include "tree.h"
+#include "node.h"
 
 using namespace std;
 
-Tree::Tree() {
+Node::Node() {
   
 }
 
-Tree::~Tree() {
+Node::~Node) {
 }
 
 /*
@@ -21,30 +21,30 @@ void Tree::getDat() {
   return next;
 }
 
-Tree* Tree::setDat(int input) {
+Node* Node::setDat(int input) {
   data = input;
 }
 
-void Tree::getNext() {
+void Node::getNext() {
   return next;
 }
 
-Tree* Tree::SetNext(Tree* input) {
+Node* Node::SetNext(Node* input) {
   next = input;
 }
 
-void Tree::getLeft() {
+void Node::getLeft() {
   return left;
 }
 
-Tree* Tree::setLeft(Tree* input) {
+Node* Node::setLeft(Node* input) {
   left = input;
 }
 
-void Tree::getRight() {
+void Node::getRight() {
   return right;
 }
 
-Tree* Tree::setRight(Tree* input) {
+Node* Node::setRight(Node* input) {
   right = input;
 }
